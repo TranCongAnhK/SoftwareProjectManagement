@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS packages (
+ id BIGSERIAL PRIMARY KEY, name VARCHAR(120) NOT NULL, category VARCHAR(10) NOT NULL CHECK(category IN ('GYM','YOGA','BOXING')),
+ price BIGINT NOT NULL CHECK(price >= 0), duration_days INTEGER NOT NULL CHECK(duration_days > 0),
+ description VARCHAR(500) NOT NULL DEFAULT '', active BOOLEAN NOT NULL DEFAULT TRUE
+);
