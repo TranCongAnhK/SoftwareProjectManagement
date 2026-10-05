@@ -53,3 +53,8 @@ Dockerfile ở root build frontend và đóng gói cùng backend để deploy; C
 - [Kiểm tra và giới hạn](docs/VALIDATION.md)
 
 `/version-b.html` là URL tương thích, dùng cùng source với `/`. Chỉ còn một bộ frontend trong `frontend/src/`.
+ Nguyễn-Trần-Dũng
+
+## Cập nhật
+- Đã kiểm tra và đồng bộ sơ đồ phân công file trong thư mục docs.
+ main
