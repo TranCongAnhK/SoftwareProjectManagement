@@ -1,0 +1,128 @@
+﻿File,Owner,Issue,Scope
+.dockerignore,Trần Công Anh Khoa,#1,Integration / shared foundation
+.env.example,Trần Công Anh Khoa,#1,Integration / shared foundation
+.gitignore,Trần Công Anh Khoa,#1,Integration / shared foundation
+Dockerfile,Trần Công Anh Khoa,#1,Integration / shared foundation
+README.md,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/Dockerfile,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/pom.xml,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/main/java/com/optigym/OptiGymApplication.java,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/main/java/com/optigym/admin/assignments/AssignmentController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/admin/dashboard/AdminDashboardController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/admin/packages/AdminPackageController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/admin/staff/StaffController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/admin/subscriptions/SubscriptionController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/admin/users/AdminUserController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/auth/AuthController.java,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/main/java/com/optigym/config/AdminBootstrapConfiguration.java,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/main/java/com/optigym/member/MemberController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/packages/PublicPackageController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/passwordreset/PasswordResetController.java,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/java/com/optigym/passwordreset/PasswordResetService.java,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/java/com/optigym/pt/PtController.java,Phạm Phú Đức,#4,Management API / dashboard data
+backend/src/main/java/com/optigym/shared/security/SessionSecurity.java,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/main/java/com/optigym/shared/web/Errors.java,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/main/java/com/optigym/shared/web/RequestValues.java,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/main/java/com/optigym/verification/EmailVerificationController.java,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/java/com/optigym/verification/EmailVerificationService.java,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/application.properties,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/01-users.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/02-email-verification.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/03-password-reset.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/04-sessions.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/05-staff.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/06-packages.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/07-subscriptions.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/main/resources/db/schema/08-pt-clients.sql,Lê Đình Bảo,#3,Database / OTP / reset
+backend/src/test/java/com/optigym/ApiRouteCompatibilityTest.java,Trần Công Anh Khoa,#1,Integration / shared foundation
+compose.yaml,Trần Công Anh Khoa,#1,Integration / shared foundation
+docs/FILE-OWNERSHIP.csv,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/Dockerfile,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/FRONTEND-STUDIO.md,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/README.md,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/index.html,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/package-lock.json,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/package.json,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/scripts/check-render.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/app/App.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/app/HomeView.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/app/PagesView.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/features/account/SettingsView.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/features/admin/assignments/AssignmentsView.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/dashboard/AdminDashboard.jsx,Trần Công Anh Khoa,#1,Admin overview
+frontend/src/features/admin/equipment/EquipmentView.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/equipment/demo/equipment.js,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/finance/FinanceView.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/finance/demo/invoices.js,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/management/DirectoryView.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/management/ManagerForm.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/management/directoryConfig.js,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/management/directoryStatus.js,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/reports/ReportsView.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/admin/subscriptions/AssignSubscription.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/auth/AuthView.jsx,Lê Đình Viên,#6,Member / Auth UI
+frontend/src/features/auth/useAuth.js,Lê Đình Viên,#6,Member / Auth UI
+frontend/src/features/checkin/CheckinView.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/features/member/dashboard/MemberDashboard.jsx,Lê Đình Viên,#6,Member / Auth UI
+frontend/src/features/member/dashboard/WeeklyActivity.jsx,Lê Đình Viên,#6,Member / Auth UI
+frontend/src/features/member/membership/MembershipView.jsx,Lê Đình Viên,#6,Member / Auth UI
+frontend/src/features/member/nutrition/NutritionView.jsx,Lê Đình Viên,#6,Member / Auth UI
+frontend/src/features/member/workout/MemberWorkoutView.jsx,Lê Đình Viên,#6,Member / Auth UI
+frontend/src/features/notifications/NotificationsView.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/features/pt/clients/ClientsView.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/pt/dashboard/PtDashboard.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/pt/programs/ProgramBuilderView.jsx,Nguyễn Trần Dũng,#5,Admin management / PT UI; prototypes outside sprint scope
+frontend/src/features/schedule/Agenda.jsx,Lê Đình Viên,#6,Shared schedule; phối hợp Dũng cho PT
+frontend/src/features/schedule/CreateSession.jsx,Lê Đình Viên,#6,Shared schedule; phối hợp Dũng cho PT
+frontend/src/features/schedule/demo/sessions.js,Lê Đình Viên,#6,Shared schedule; phối hợp Dũng cho PT
+frontend/src/features/training/demo/exercises.js,Nguyễn Trần Dũng,#5,Shared training prototype; phối hợp Viên cho Member
+frontend/src/features/training/exercises/LibraryView.jsx,Nguyễn Trần Dũng,#5,Shared training prototype; phối hợp Viên cho Member
+frontend/src/features/training/progress/ProgressView.jsx,Nguyễn Trần Dũng,#5,Shared training prototype; phối hợp Viên cho Member
+frontend/src/main.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/api/client.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/api/initialData.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/api/loadPaths.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/components/TrainingHero.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/config/navigation.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/config/roles.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/accounts.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/freshDemoData.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/freshSample.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/members.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/packages.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/readRole.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/staff.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/demo/trainers.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/lib/date.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/lib/exportCSV.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/lib/format.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/lib/today.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/styles/base.css,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/styles/studio.css,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/styles/styles.css,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Avatar.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/BarChart.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Button.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Empty.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Field.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/IconButton.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Loading.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/MetricStrip.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Modal.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/PageTitle.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Person.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Sample.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Section.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Select.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Table.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/Tag.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/TextLink.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/ui/WeightChart.jsx,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/src/shared/workout/WorkoutEditor.jsx,Nguyễn Trần Dũng,#5,Shared training prototype; phối hợp Viên cho Member
+frontend/version-b.html,Trần Công Anh Khoa,#1,Integration / shared foundation
+frontend/vite.config.js,Trần Công Anh Khoa,#1,Integration / shared foundation
+backend/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker,Trần Công Anh Khoa,#1,Integration / documentation / validation
+docs/STRUCTURE.md,Trần Công Anh Khoa,#1,Integration / documentation / validation
+docs/TEAM-OWNERSHIP.md,Trần Công Anh Khoa,#1,Integration / documentation / validation
+docs/VALIDATION.md,Trần Công Anh Khoa,#1,Integration / documentation / validation
+frontend/public/studio/training.jpg,Trần Công Anh Khoa,#1,Integration / documentation / validation
